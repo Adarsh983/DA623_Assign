@@ -5,7 +5,7 @@ import torch
 from PIL import Image
 import json
 import clip
-from transformers import BlipProcessor, BlipForConditionalGeneration
+from transformers import Blip2Processor, Blip2ForConditionalGeneration
 import matplotlib.pyplot as plt
 
 # Load CLIP
@@ -13,8 +13,8 @@ device = "cuda" if torch.cuda.is_available() else "cpu"
 clip_model, clip_preprocess = clip.load("ViT-B/32", device=device)
 
 # Load BLIP-2
-blip_processor = BlipProcessor.from_pretrained("Salesforce/blip-image-captioning-base")
-blip_model = BlipForConditionalGeneration.from_pretrained("Salesforce/blip-image-captioning-base").to(device)
+blip_processor = Blip2Processor.from_pretrained("Salesforce/blip2-flan-t5-xl")
+blip_model = Blip2ForConditionalGeneration.from_pretrained("Salesforce/blip2-flan-t5-xl").to(device)
 
 with open("real_meme_dataset_clip_blip.json", "r") as f:
     meme_data = json.load(f)
@@ -33,7 +33,8 @@ for meme in meme_data:
     raw_image = Image.open(image_path).convert("RGB")
     image_input_clip = clip_preprocess(raw_image).unsqueeze(0).to(device)
 
-    text_inputs = clip.tokenize(meme["captions"]).to(device)
+    prefixed_captions = [f"Meme Caption: {c}" for c in meme["captions"]]
+    text_inputs = clip.tokenize(prefixed_captions).to(device)
     with torch.no_grad():
         image_features = clip_model.encode_image(image_input_clip)
         text_features = clip_model.encode_text(text_inputs)
@@ -48,11 +49,12 @@ for meme in meme_data:
         out = blip_model.generate(**blip_inputs)
     blip_caption = blip_processor.decode(out[0], skip_special_tokens=True)
 
-    prompt = f"Explain why this meme is funny: {meme['correct_caption']}"
+    prompt = f"""1. What do you think the caption of this meme should be?
+                 2.The caption of this meme is {meme['correct_caption']}. Explain why this meme is funny."""
     blip_inputs_prompt = blip_processor(raw_image, prompt, return_tensors="pt").to(device)
     with torch.no_grad():
-        out_prompt = blip_model.generate(**blip_inputs_prompt)
-    blip_caption_with_prompt = blip_processor.decode(out_prompt[0], skip_special_tokens=True)
+        out_prompt = blip_model.generate(**blip_inputs_prompt, max_new_tokens=100)
+    blip_caption_with_prompt = blip_processor.tokenizer.decode(out_prompt[0], skip_special_tokens=True)
 
     results.append({
         "meme_id": meme["id"],
