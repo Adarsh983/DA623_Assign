@@ -1,0 +1,452 @@
+[
+  {
+    "meme_id": "meme_00",
+    "clip_prediction_index": 2,
+    "clip_predicted_caption": "A guy with two girlfriends",
+    "clip_correct": false,
+    "clip_probs": [
+      0.00870513916015625,
+      0.0128631591796875,
+      0.783203125,
+      0.195068359375
+    ],
+    "blip_caption": "a man and woman walking down a city street",
+    "blip_caption_with_prompt": "explain why this meme is funny : me ignoring responsibilities to start a new project",
+    "correct_caption": "Me ignoring responsibilities to start a new project"
+  },
+  {
+    "meme_id": "meme_01",
+    "clip_prediction_index": 0,
+    "clip_predicted_caption": "Finished the assignment on time!",
+    "clip_correct": true,
+    "clip_probs": [
+      0.99951171875,
+      2.7120113372802734e-05,
+      0.0002199411392211914,
+      2.9742717742919922e-05
+    ],
+    "blip_caption": "a baby sitting at a table with a capt that says, i ' m ' m ' m '",
+    "blip_caption_with_prompt": "explain why this meme is funny : finished the assignment on time!",
+    "correct_caption": "Finished the assignment on time!"
+  },
+  {
+    "meme_id": "meme_02",
+    "clip_prediction_index": 0,
+    "clip_predicted_caption": "Everything is on fire, but staying calm",
+    "clip_correct": true,
+    "clip_probs": [
+      0.479736328125,
+      0.0194854736328125,
+      0.443603515625,
+      0.057281494140625
+    ],
+    "blip_caption": "a cartoon dog is sitting in front of a fire",
+    "blip_caption_with_prompt": "explain why this meme is funny : everything is on fire, but staying calm",
+    "correct_caption": "Everything is on fire, but staying calm"
+  },
+  {
+    "meme_id": "meme_03",
+    "clip_prediction_index": 2,
+    "clip_predicted_caption": "Woman mad at her pet dog",
+    "clip_correct": false,
+    "clip_probs": [
+      0.4013671875,
+      0.0304718017578125,
+      0.484130859375,
+      0.0841064453125
+    ],
+    "blip_caption": "a woman is pointing at a cat",
+    "blip_caption_with_prompt": "explain why this meme is funny : arguing over pineapple on pizza",
+    "correct_caption": "Arguing over pineapple on pizza"
+  },
+  {
+    "meme_id": "meme_04",
+    "clip_prediction_index": 3,
+    "clip_predicted_caption": "Thinking about the weather",
+    "clip_correct": false,
+    "clip_probs": [
+      0.373046875,
+      0.1351318359375,
+      0.0418701171875,
+      0.449951171875
+    ],
+    "blip_caption": "a man sitting at a desk",
+    "blip_caption_with_prompt": "explain why this meme is funny : smiling through deep existential pain",
+    "correct_caption": "Smiling through deep existential pain"
+  },
+  {
+    "meme_id": "meme_05",
+    "clip_prediction_index": 2,
+    "clip_predicted_caption": "Learning math from memes",
+    "clip_correct": false,
+    "clip_probs": [
+      0.0146942138671875,
+      0.1461181640625,
+      0.68603515625,
+      0.153076171875
+    ],
+    "blip_caption": "the four main areas of the brain",
+    "blip_caption_with_prompt": "explain why this meme is funny : idea : copying code > understanding code > writing code > deleting everything",
+    "correct_caption": "Idea: Copying code > Understanding code > Writing code > Deleting everything"
+  },
+  {
+    "meme_id": "meme_06",
+    "clip_prediction_index": 2,
+    "clip_predicted_caption": "Cute Pokemon reaction",
+    "clip_correct": false,
+    "clip_probs": [
+      0.14453125,
+      0.223876953125,
+      0.6083984375,
+      0.023223876953125
+    ],
+    "blip_caption": "a cartoon character with a yellow face and a red nose",
+    "blip_caption_with_prompt": "explain why this meme is funny : didn ' t study \u2192 failed exam \u2192 surprised",
+    "correct_caption": "Didn't study \u2192 failed exam \u2192 surprised"
+  },
+  {
+    "meme_id": "meme_07",
+    "clip_prediction_index": 2,
+    "clip_predicted_caption": "Bug identification meme",
+    "clip_correct": false,
+    "clip_probs": [
+      0.01477813720703125,
+      0.33642578125,
+      0.6484375,
+      0.0005555152893066406
+    ],
+    "blip_caption": "a cartoon character with a butterfly on his shoulder",
+    "blip_caption_with_prompt": "explain why this meme is funny : calling every bird a pigeon",
+    "correct_caption": "Calling every bird a pigeon"
+  },
+  {
+    "meme_id": "meme_08",
+    "clip_prediction_index": 0,
+    "clip_predicted_caption": "Getting insulted \u2192 UNO reverse \u2192 You!",
+    "clip_correct": true,
+    "clip_probs": [
+      0.6806640625,
+      0.1361083984375,
+      0.1832275390625,
+      1.8477439880371094e-05
+    ],
+    "blip_caption": "a hand holding a game controller with four different colored buttons",
+    "blip_caption_with_prompt": "explain why this meme is funny : getting insulted \u2192 uno reverse \u2192 you!",
+    "correct_caption": "Getting insulted \u2192 UNO reverse \u2192 You!"
+  },
+  {
+    "meme_id": "meme_09",
+    "clip_prediction_index": 0,
+    "clip_predicted_caption": "Tabs are better than spaces. Change my mind.",
+    "clip_correct": true,
+    "clip_probs": [
+      0.9912109375,
+      0.0012750625610351562,
+      0.0027408599853515625,
+      0.00473785400390625
+    ],
+    "blip_caption": "a man sitting at a table with a sign on it",
+    "blip_caption_with_prompt": "explain why this meme is funny : tabs are better than spaces. change my mind.",
+    "correct_caption": "Tabs are better than spaces. Change my mind."
+  },
+  {
+    "meme_id": "meme_10",
+    "clip_prediction_index": 0,
+    "clip_predicted_caption": "Debug or Rewrite?",
+    "clip_correct": true,
+    "clip_probs": [
+      0.54638671875,
+      0.174560546875,
+      0.032806396484375,
+      0.2462158203125
+    ],
+    "blip_caption": "a comic strip strip with a man holding a red ball",
+    "blip_caption_with_prompt": "explain why this meme is funny : debug or rewrite?",
+    "correct_caption": "Debug or Rewrite?"
+  },
+  {
+    "meme_id": "meme_11",
+    "clip_prediction_index": 3,
+    "clip_predicted_caption": "Reacting to jokes",
+    "clip_correct": false,
+    "clip_probs": [
+      0.0684814453125,
+      0.0653076171875,
+      0.2464599609375,
+      0.61962890625
+    ],
+    "blip_caption": "a man in a red jacket",
+    "blip_caption_with_prompt": "explain why this meme is funny : using global variables \u2014 no. using local scope \u2014 yes.",
+    "correct_caption": "Using global variables \u2014 No. Using local scope \u2014 Yes."
+  },
+  {
+    "meme_id": "meme_12",
+    "clip_prediction_index": 3,
+    "clip_predicted_caption": "Planning a wedding",
+    "clip_correct": false,
+    "clip_probs": [
+      0.2049560546875,
+      0.332763671875,
+      0.0968017578125,
+      0.365478515625
+    ],
+    "blip_caption": "a cartoon character with a lot of different expressions",
+    "blip_caption_with_prompt": "explain why this meme is funny : plan : start early. reality : panic last minute.",
+    "correct_caption": "Plan: Start early. Reality: Panic last minute."
+  },
+  {
+    "meme_id": "meme_13",
+    "clip_prediction_index": 0,
+    "clip_predicted_caption": "Trying to calculate your crush\u2019s mixed signals",
+    "clip_correct": true,
+    "clip_probs": [
+      0.82666015625,
+      0.1705322265625,
+      0.0023956298828125,
+      0.000644683837890625
+    ],
+    "blip_caption": "a woman with a lot of facial expressions",
+    "blip_caption_with_prompt": "explain why this meme is funny : trying to calculate your crush \u2019 s mixed signals",
+    "correct_caption": "Trying to calculate your crush\u2019s mixed signals"
+  },
+  {
+    "meme_id": "meme_14",
+    "clip_prediction_index": 3,
+    "clip_predicted_caption": "Stock market overview",
+    "clip_correct": false,
+    "clip_probs": [
+      0.15576171875,
+      0.030670166015625,
+      0.0227813720703125,
+      0.791015625
+    ],
+    "blip_caption": "a man in a suit standing in front of a wall of stock",
+    "blip_caption_with_prompt": "explain why this meme is funny : accidentally made code run faster \u2014 stonks!",
+    "correct_caption": "Accidentally made code run faster \u2014 stonks!"
+  },
+  {
+    "meme_id": "meme_15",
+    "clip_prediction_index": 3,
+    "clip_predicted_caption": "Social media challenge",
+    "clip_correct": false,
+    "clip_probs": [
+      0.07598876953125,
+      0.300537109375,
+      0.20654296875,
+      0.417236328125
+    ],
+    "blip_caption": "a man in a suit and tie is making a gesture",
+    "blip_caption_with_prompt": "explain why this meme is funny : i receive : sleep. you receive : assignment done.",
+    "correct_caption": "I receive: sleep. You receive: assignment done."
+  },
+  {
+    "meme_id": "meme_16",
+    "clip_prediction_index": 0,
+    "clip_predicted_caption": "You finished the project, right? ...Right?",
+    "clip_correct": true,
+    "clip_probs": [
+      0.5400390625,
+      0.2049560546875,
+      0.10968017578125,
+      0.1453857421875
+    ],
+    "blip_caption": "the faults of the fault",
+    "blip_caption_with_prompt": "explain why this meme is funny : you finished the project, right?... right?????????",
+    "correct_caption": "You finished the project, right? ...Right?"
+  },
+  {
+    "meme_id": "meme_17",
+    "clip_prediction_index": 1,
+    "clip_predicted_caption": "DC Comics humor",
+    "clip_correct": false,
+    "clip_probs": [
+      0.01302337646484375,
+      0.9716796875,
+      0.0003311634063720703,
+      0.014984130859375
+    ],
+    "blip_caption": "batman slappings batman slappings batman slappings batman slappings batman slappings batman slappings batman slapping",
+    "blip_caption_with_prompt": "explain why this meme is funny : \u2018 i \u2019 ll finish tomorrow \u2019 \u2014 slap \u2014 \u2018 you \u2019 ll do it now! \u2019",
+    "correct_caption": "\u2018I\u2019ll finish tomorrow\u2019 \u2014 SLAP \u2014 \u2018You\u2019ll do it now!\u2019"
+  },
+  {
+    "meme_id": "meme_18",
+    "clip_prediction_index": 0,
+    "clip_predicted_caption": "When someone asks if you\u2019ve started the project",
+    "clip_correct": true,
+    "clip_probs": [
+      0.9443359375,
+      0.0113372802734375,
+      0.01367950439453125,
+      0.03082275390625
+    ],
+    "blip_caption": "a cartoon character with a red hair and a green shirt",
+    "blip_caption_with_prompt": "explain why this meme is funny : when someone asks if you \u2019 ve started the project",
+    "correct_caption": "When someone asks if you\u2019ve started the project"
+  },
+  {
+    "meme_id": "meme_19",
+    "clip_prediction_index": 2,
+    "clip_predicted_caption": "Strategy meeting",
+    "clip_correct": false,
+    "clip_probs": [
+      0.01282501220703125,
+      0.02801513671875,
+      0.95703125,
+      0.002227783203125
+    ],
+    "blip_caption": "the game ' s title screen",
+    "blip_caption_with_prompt": "explain why this meme is funny : when someone says python is better than c + +",
+    "correct_caption": "When someone says Python is better than C++"
+  },
+  {
+    "meme_id": "meme_20",
+    "clip_prediction_index": 1,
+    "clip_predicted_caption": "Driving safely",
+    "clip_correct": false,
+    "clip_probs": [
+      0.0009851455688476562,
+      0.50244140625,
+      0.391357421875,
+      0.10528564453125
+    ],
+    "blip_caption": "a car is driving down the highway",
+    "blip_caption_with_prompt": "explain why this meme is funny : sleep \u2190 \u2190 \u2190 finish project",
+    "correct_caption": "Sleep \u2190 \u2190 \u2190 Finish Project"
+  },
+  {
+    "meme_id": "meme_21",
+    "clip_prediction_index": 2,
+    "clip_predicted_caption": "Meditation levels",
+    "clip_correct": false,
+    "clip_probs": [
+      7.444620132446289e-05,
+      0.0645751953125,
+      0.61279296875,
+      0.32275390625
+    ],
+    "blip_caption": "the four main types of the brain",
+    "blip_caption_with_prompt": "explain why this meme is funny : using print statements \u2192 using a debugger \u2192 telepathically reading stack trace",
+    "correct_caption": "Using print statements \u2192 Using a debugger \u2192 Telepathically reading stack trace"
+  },
+  {
+    "meme_id": "meme_22",
+    "clip_prediction_index": 2,
+    "clip_predicted_caption": "Infinity Gauntlet analysis",
+    "clip_correct": false,
+    "clip_probs": [
+      0.03192138671875,
+      0.0634765625,
+      0.904296875,
+      0.00047707557678222656
+    ],
+    "blip_caption": "the avengers movie",
+    "blip_caption_with_prompt": "explain why this meme is funny : deleted 1000 lines of code with a snap",
+    "correct_caption": "Deleted 1000 lines of code with a snap"
+  },
+  {
+    "meme_id": "meme_23",
+    "clip_prediction_index": 1,
+    "clip_predicted_caption": "At a wedding party",
+    "clip_correct": false,
+    "clip_probs": [
+      0.224365234375,
+      0.61962890625,
+      0.1494140625,
+      0.006671905517578125
+    ],
+    "blip_caption": "a cartoon drawing of a man and woman in a room",
+    "blip_caption_with_prompt": "explain why this meme is funny : they don \u2019 t know i finished my project at 4 am",
+    "correct_caption": "They don\u2019t know I finished my project at 4 AM"
+  },
+  {
+    "meme_id": "meme_24",
+    "clip_prediction_index": 1,
+    "clip_predicted_caption": "Winter fashion goals",
+    "clip_correct": false,
+    "clip_probs": [
+      0.140625,
+      0.82177734375,
+      0.036102294921875,
+      0.0013151168823242188
+    ],
+    "blip_caption": "a group of people sitting on a set of stairs",
+    "blip_caption_with_prompt": "explain why this meme is funny : waiting for code to compile",
+    "correct_caption": "Waiting for code to compile"
+  },
+  {
+    "meme_id": "meme_25",
+    "clip_prediction_index": 2,
+    "clip_predicted_caption": "Every teacher during a drill, STAY CALM!!!",
+    "clip_correct": false,
+    "clip_probs": [
+      0.1671142578125,
+      0.0595703125,
+      0.63037109375,
+      0.1429443359375
+    ],
+    "blip_caption": "a group of men in suits and ties standing around a table",
+    "blip_caption_with_prompt": "explain why this meme is funny : every teacher during a drill, stay calm!!!",
+    "correct_caption": "Every teacher during a drill, STAY CALM!!!"
+  },
+  {
+    "meme_id": "meme_26",
+    "clip_prediction_index": 2,
+    "clip_predicted_caption": "Award show tears",
+    "clip_correct": false,
+    "clip_probs": [
+      0.26025390625,
+      0.005153656005859375,
+      0.66455078125,
+      0.070068359375
+    ],
+    "blip_caption": "a man in a suit and tie",
+    "blip_caption_with_prompt": "explain why this meme is funny : when the code doesn \u2019 t run on the final demo",
+    "correct_caption": "When the code doesn\u2019t run on the final demo"
+  },
+  {
+    "meme_id": "meme_27",
+    "clip_prediction_index": 2,
+    "clip_predicted_caption": "SpongeBob trivia",
+    "clip_correct": false,
+    "clip_probs": [
+      0.005573272705078125,
+      0.0283050537109375,
+      0.88037109375,
+      0.0858154296875
+    ],
+    "blip_caption": "a screenshot of a cartoon character",
+    "blip_caption_with_prompt": "explain why this meme is funny : let me check if i have motivation \u2026 nope.",
+    "correct_caption": "Let me check if I have motivation\u2026 nope."
+  },
+  {
+    "meme_id": "meme_28",
+    "clip_prediction_index": 0,
+    "clip_predicted_caption": "Waiting for groupmates to contribute",
+    "clip_correct": true,
+    "clip_probs": [
+      1.0,
+      6.109476089477539e-05,
+      4.3332576751708984e-05,
+      2.3186206817626953e-05
+    ],
+    "blip_caption": "a skeleton sitting on a bench with a bird in the background",
+    "blip_caption_with_prompt": "explain why this meme is funny : waiting for groupmates to contribute",
+    "correct_caption": "Waiting for groupmates to contribute"
+  },
+  {
+    "meme_id": "meme_29",
+    "clip_prediction_index": 1,
+    "clip_predicted_caption": "Bird noise",
+    "clip_correct": false,
+    "clip_probs": [
+      0.469970703125,
+      0.50048828125,
+      0.0015430450439453125,
+      0.028228759765625
+    ],
+    "blip_caption": "a bird is sitting on a roof with a caption",
+    "blip_caption_with_prompt": "explain why this meme is funny : friend makes a bad joke \u2014 me : hahahahahahahahahahahahahahahahahahahahahahaha",
+    "correct_caption": "Friend makes a bad joke \u2014 Me: HAHAHA"
+  }
+]

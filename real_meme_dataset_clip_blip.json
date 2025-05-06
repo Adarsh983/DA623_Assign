@@ -1,0 +1,392 @@
+[
+  {
+    "id": "meme_00",
+    "image_filename": "meme_00.jpg",
+    "template": "Distracted Boyfriend",
+    "captions": [
+      "Me ignoring responsibilities to start a new project",
+      "Enjoying a lovely vacation",
+      "A guy with two girlfriends",
+      "Checking out clothes at the mall"
+    ],
+    "correct_caption_index": 0,
+    "correct_caption": "Me ignoring responsibilities to start a new project"
+  },
+  {
+    "id": "meme_01",
+    "image_filename": "meme_01.jpg",
+    "template": "Success Kid",
+    "captions": [
+      "Finished the assignment on time!",
+      "Doesn't like sand",
+      "Kid celebrating New Year",
+      "Crying over spilled milk"
+    ],
+    "correct_caption_index": 0,
+    "correct_caption": "Finished the assignment on time!"
+  },
+  {
+    "id": "meme_02",
+    "image_filename": "meme_02.jpg",
+    "template": "This is Fine",
+    "captions": [
+      "Everything is on fire, but staying calm",
+      "A cozy camping scene",
+      "Dog eating pizza",
+      "Chilling in a sauna"
+    ],
+    "correct_caption_index": 0,
+    "correct_caption": "Everything is on fire, but staying calm"
+  },
+  {
+    "id": "meme_03",
+    "image_filename": "meme_03.jpg",
+    "template": "Woman Yelling at a Cat",
+    "captions": [
+      "Arguing over pineapple on pizza",
+      "Explaining tax forms to a cat",
+      "Woman mad at her pet dog",
+      "Debating Marvel vs DC"
+    ],
+    "correct_caption_index": 0,
+    "correct_caption": "Arguing over pineapple on pizza"
+  },
+  {
+    "id": "meme_04",
+    "image_filename": "meme_04.jpg",
+    "template": "Hide the Pain Harold",
+    "captions": [
+      "Smiling through deep existential pain",
+      "Old man enjoying coffee",
+      "Retirement goals",
+      "Thinking about the weather"
+    ],
+    "correct_caption_index": 0,
+    "correct_caption": "Smiling through deep existential pain"
+  },
+  {
+    "id": "meme_05",
+    "image_filename": "meme_05.jpg",
+    "template": "Expanding Brain",
+    "captions": [
+      "Idea: Copying code > Understanding code > Writing code > Deleting everything",
+      "Meditation progression",
+      "Learning math from memes",
+      "Stages of cooking pasta"
+    ],
+    "correct_caption_index": 0,
+    "correct_caption": "Idea: Copying code > Understanding code > Writing code > Deleting everything"
+  },
+  {
+    "id": "meme_06",
+    "image_filename": "meme_06.jpg",
+    "template": "Surprised Pikachu",
+    "captions": [
+      "Didn't study \u2192 failed exam \u2192 surprised",
+      "Pikachu watching fireworks",
+      "Cute Pokemon reaction",
+      "Being caught by Ash"
+    ],
+    "correct_caption_index": 0,
+    "correct_caption": "Didn't study \u2192 failed exam \u2192 surprised"
+  },
+  {
+    "id": "meme_07",
+    "image_filename": "meme_07.jpg",
+    "template": "Is This a Pigeon?",
+    "captions": [
+      "Calling every bird a pigeon",
+      "Guy admiring a butterfly",
+      "Bug identification meme",
+      "Science textbook diagram"
+    ],
+    "correct_caption_index": 0,
+    "correct_caption": "Calling every bird a pigeon"
+  },
+  {
+    "id": "meme_08",
+    "image_filename": "meme_08.jpg",
+    "template": "UNO Reverse Card",
+    "captions": [
+      "Getting insulted \u2192 UNO reverse \u2192 You!",
+      "A fun card game night",
+      "Playing poker",
+      "Drawing in art class"
+    ],
+    "correct_caption_index": 0,
+    "correct_caption": "Getting insulted \u2192 UNO reverse \u2192 You!"
+  },
+  {
+    "id": "meme_09",
+    "image_filename": "meme_09.jpg",
+    "template": "Change My Mind",
+    "captions": [
+      "Tabs are better than spaces. Change my mind.",
+      "Sitting for lunch outside",
+      "Promoting coffee",
+      "Arguing about colors"
+    ],
+    "correct_caption_index": 0,
+    "correct_caption": "Tabs are better than spaces. Change my mind."
+  },
+  {
+    "id": "meme_10",
+    "image_filename": "meme_10.jpg",
+    "template": "Two Buttons",
+    "captions": [
+      "Debug or Rewrite?",
+      "Two random switches",
+      "Lighting setup options",
+      "Choose your fighter"
+    ],
+    "correct_caption_index": 0,
+    "correct_caption": "Debug or Rewrite?"
+  },
+  {
+    "id": "meme_11",
+    "image_filename": "meme_11.jpg",
+    "template": "Drake Hotline Bling",
+    "captions": [
+      "Using global variables \u2014 No. Using local scope \u2014 Yes.",
+      "Enjoying music",
+      "Fashion critique",
+      "Reacting to jokes"
+    ],
+    "correct_caption_index": 0,
+    "correct_caption": "Using global variables \u2014 No. Using local scope \u2014 Yes."
+  },
+  {
+    "id": "meme_12",
+    "image_filename": "meme_12.jpg",
+    "template": "Gru's Plan",
+    "captions": [
+      "Plan: Start early. Reality: Panic last minute.",
+      "Evil genius blueprint",
+      "Movie villain introduction",
+      "Planning a wedding"
+    ],
+    "correct_caption_index": 0,
+    "correct_caption": "Plan: Start early. Reality: Panic last minute."
+  },
+  {
+    "id": "meme_13",
+    "image_filename": "meme_13.jpg",
+    "template": "Confused Math Lady",
+    "captions": [
+      "Trying to calculate your crush\u2019s mixed signals",
+      "Solving trigonometry",
+      "Sudoku strategy",
+      "Cooking measurements"
+    ],
+    "correct_caption_index": 0,
+    "correct_caption": "Trying to calculate your crush\u2019s mixed signals"
+  },
+  {
+    "id": "meme_14",
+    "image_filename": "meme_14.jpg",
+    "template": "Stonks",
+    "captions": [
+      "Accidentally made code run faster \u2014 stonks!",
+      "Business presentation",
+      "Crypto tips",
+      "Stock market overview"
+    ],
+    "correct_caption_index": 0,
+    "correct_caption": "Accidentally made code run faster \u2014 stonks!"
+  },
+  {
+    "id": "meme_15",
+    "image_filename": "meme_15.jpg",
+    "template": "Trade Offer",
+    "captions": [
+      "I receive: sleep. You receive: assignment done.",
+      "Real estate negotiation",
+      "Shopping online",
+      "Social media challenge"
+    ],
+    "correct_caption_index": 0,
+    "correct_caption": "I receive: sleep. You receive: assignment done."
+  },
+  {
+    "id": "meme_16",
+    "image_filename": "meme_16.jpg",
+    "template": "Anakin and Padm\u00e9",
+    "captions": [
+      "You finished the project, right? ...Right?",
+      "Star Wars love story",
+      "Galactic politics",
+      "Dating tips"
+    ],
+    "correct_caption_index": 0,
+    "correct_caption": "You finished the project, right? ...Right?"
+  },
+  {
+    "id": "meme_17",
+    "image_filename": "meme_17.jpg",
+    "template": "Batman Slapping Robin",
+    "captions": [
+      "\u2018I\u2019ll finish tomorrow\u2019 \u2014 SLAP \u2014 \u2018You\u2019ll do it now!\u2019",
+      "DC Comics humor",
+      "Training montage",
+      "Comic book action"
+    ],
+    "correct_caption_index": 0,
+    "correct_caption": "\u2018I\u2019ll finish tomorrow\u2019 \u2014 SLAP \u2014 \u2018You\u2019ll do it now!\u2019"
+  },
+  {
+    "id": "meme_18",
+    "image_filename": "meme_18.jpg",
+    "template": "Monkey Puppet",
+    "captions": [
+      "When someone asks if you\u2019ve started the project",
+      "Puppet show",
+      "Cartoon network scene",
+      "Kid\u2019s play"
+    ],
+    "correct_caption_index": 0,
+    "correct_caption": "When someone asks if you\u2019ve started the project"
+  },
+  {
+    "id": "meme_19",
+    "image_filename": "meme_19.jpg",
+    "template": "Among Us Emergency Meeting",
+    "captions": [
+      "When someone says Python is better than C++",
+      "Discussing space missions",
+      "Strategy meeting",
+      "Debating music taste"
+    ],
+    "correct_caption_index": 0,
+    "correct_caption": "When someone says Python is better than C++"
+  },
+  {
+    "id": "meme_20",
+    "image_filename": "meme_20.jpg",
+    "template": "Left Exit 12 Off Ramp",
+    "captions": [
+      "Sleep \u2190 \u2190 \u2190 Finish Project",
+      "Driving safely",
+      "Fast and furious meme",
+      "Detour instructions"
+    ],
+    "correct_caption_index": 0,
+    "correct_caption": "Sleep \u2190 \u2190 \u2190 Finish Project"
+  },
+  {
+    "id": "meme_21",
+    "image_filename": "meme_21.jpg",
+    "template": "Galaxy Brain",
+    "captions": [
+      "Using print statements \u2192 Using a debugger \u2192 Telepathically reading stack trace",
+      "Cosmic awakening",
+      "Meditation levels",
+      "Learning science"
+    ],
+    "correct_caption_index": 0,
+    "correct_caption": "Using print statements \u2192 Using a debugger \u2192 Telepathically reading stack trace"
+  },
+  {
+    "id": "meme_22",
+    "image_filename": "meme_22.jpg",
+    "template": "Thanos",
+    "captions": [
+      "Deleted 1000 lines of code with a snap",
+      "Marvel villain appreciation",
+      "Infinity Gauntlet analysis",
+      "Wearing jewelry"
+    ],
+    "correct_caption_index": 0,
+    "correct_caption": "Deleted 1000 lines of code with a snap"
+  },
+  {
+    "id": "meme_23",
+    "image_filename": "meme_23.jpg",
+    "template": "They Don\u2019t Know",
+    "captions": [
+      "They don\u2019t know I finished my project at 4 AM",
+      "At a wedding party",
+      "Dance floor humor",
+      "Conference speech"
+    ],
+    "correct_caption_index": 0,
+    "correct_caption": "They don\u2019t know I finished my project at 4 AM"
+  },
+  {
+    "id": "meme_24",
+    "image_filename": "meme_24.jpg",
+    "template": "Bernie Sanders Chair",
+    "captions": [
+      "Waiting for code to compile",
+      "Winter fashion goals",
+      "Senate meeting",
+      "Budget proposal"
+    ],
+    "correct_caption_index": 0,
+    "correct_caption": "Waiting for code to compile"
+  },
+  {
+    "id": "meme_25",
+    "image_filename": "meme_25.jpg",
+    "template": "Office Fire Drill",
+    "captions": [
+      "The building is on fire? Let\u2019s keep working.",
+      "Morning meeting",
+      "Every teacher during a drill, STAY CALM!!!",
+      "HR training"
+    ],
+    "correct_caption_index": 0,
+    "correct_caption": "Every teacher during a drill, STAY CALM!!!"
+  },
+  {
+    "id": "meme_26",
+    "image_filename": "meme_26.jpg",
+    "template": "Crying Michael Jordan",
+    "captions": [
+      "When the code doesn\u2019t run on the final demo",
+      "Basketball GOAT moment",
+      "Award show tears",
+      "Emotional movie scene"
+    ],
+    "correct_caption_index": 0,
+    "correct_caption": "When the code doesn\u2019t run on the final demo"
+  },
+  {
+    "id": "meme_27",
+    "image_filename": "meme_27.jpg",
+    "template": "Patrick Wallet",
+    "captions": [
+      "Let me check if I have motivation\u2026 nope.",
+      "Spending habits",
+      "SpongeBob trivia",
+      "Shopping trip"
+    ],
+    "correct_caption_index": 0,
+    "correct_caption": "Let me check if I have motivation\u2026 nope."
+  },
+  {
+    "id": "meme_28",
+    "image_filename": "meme_28.jpg",
+    "template": "Waiting Skeleton",
+    "captions": [
+      "Waiting for groupmates to contribute",
+      "Halloween prop",
+      "Medical exhibit",
+      "Haunted house"
+    ],
+    "correct_caption_index": 0,
+    "correct_caption": "Waiting for groupmates to contribute"
+  },
+  {
+    "id": "meme_29",
+    "image_filename": "meme_29.jpg",
+    "template": "Inhaling Seagull",
+    "captions": [
+      "Friend makes a bad joke \u2014 Me: HAHAHA",
+      "Bird noise",
+      "Nature photography",
+      "Calling out across the ocean"
+    ],
+    "correct_caption_index": 0,
+    "correct_caption": "Friend makes a bad joke \u2014 Me: HAHAHA"
+  }
+]
