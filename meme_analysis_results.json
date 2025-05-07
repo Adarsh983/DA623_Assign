@@ -5,13 +5,14 @@
     "clip_predicted_caption": "A guy with two girlfriends",
     "clip_correct": false,
     "clip_probs": [
-      0.01184844970703125,
-      0.03271484375,
-      0.8837890625,
-      0.0714111328125
+      0.00870513916015625,
+      0.0128631591796875,
+      0.783203125,
+      0.195068359375
     ],
     "blip_caption": "a group of people walking down a street",
-    "blip_caption_with_prompt": "2.",
+    "blip_caption_with_prompt": "a man is walking down the street with two women",
+    "blip_reason": "the man is looking at the women and is confused",
     "correct_caption": "Me ignoring responsibilities to start a new project"
   },
   {
@@ -20,13 +21,14 @@
     "clip_predicted_caption": "Finished the assignment on time!",
     "clip_correct": true,
     "clip_probs": [
-      0.95458984375,
-      0.0013914108276367188,
-      0.04327392578125,
-      0.0005116462707519531
+      0.99951171875,
+      2.7120113372802734e-05,
+      0.0002199411392211914,
+      2.9742717742919922e-05
     ],
     "blip_caption": "a kid with a fist that says i'm a fuck",
-    "blip_caption_with_prompt": "2.the caption of this meme is a kid who is a genius",
+    "blip_caption_with_prompt": "i'm a kid who's a nerd - i'm a kid who's a nerd",
+    "blip_reason": "i'm a kid who's a nerd - i'm a kid who's a nerd",
     "correct_caption": "Finished the assignment on time!"
   },
   {
@@ -35,13 +37,14 @@
     "clip_predicted_caption": "Everything is on fire, but staying calm",
     "clip_correct": true,
     "clip_probs": [
-      0.369140625,
-      0.1827392578125,
-      0.1944580078125,
-      0.253662109375
+      0.479736328125,
+      0.0194854736328125,
+      0.443603515625,
+      0.057281494140625
     ],
     "blip_caption": "a cartoon dog sitting in front of a fire",
-    "blip_caption_with_prompt": "2.",
+    "blip_caption_with_prompt": "a dog in a fire",
+    "blip_reason": "the dog is in a fire, and the dog is in a fire",
     "correct_caption": "Everything is on fire, but staying calm"
   },
   {
@@ -50,73 +53,78 @@
     "clip_predicted_caption": "Woman mad at her pet dog",
     "clip_correct": false,
     "clip_probs": [
-      0.047698974609375,
-      0.1492919921875,
-      0.73486328125,
-      0.068359375
+      0.4013671875,
+      0.0304718017578125,
+      0.484130859375,
+      0.0841064453125
     ],
     "blip_caption": "a cat is pointing at a woman and a woman is eating",
-    "blip_caption_with_prompt": "2.",
+    "blip_caption_with_prompt": "cat eats a salad",
+    "blip_reason": "the cat is eating a salad and the woman is pointing at it",
     "correct_caption": "Arguing over pineapple on pizza"
   },
   {
     "meme_id": "meme_04",
-    "clip_prediction_index": 1,
-    "clip_predicted_caption": "Old man enjoying coffee",
+    "clip_prediction_index": 3,
+    "clip_predicted_caption": "Thinking about the weather",
     "clip_correct": false,
     "clip_probs": [
-      0.298828125,
-      0.54931640625,
-      0.06878662109375,
-      0.08294677734375
+      0.373046875,
+      0.1351318359375,
+      0.0418701171875,
+      0.449951171875
     ],
     "blip_caption": "a man is sitting at his desk with a laptop",
-    "blip_caption_with_prompt": "2.the caption of this meme is smiling through deep existential pain'' explain why this meme is funny",
+    "blip_caption_with_prompt": "the old man is working on his laptop",
+    "blip_reason": "the old man is working on his laptop and he is drinking coffee",
     "correct_caption": "Smiling through deep existential pain"
   },
   {
     "meme_id": "meme_05",
-    "clip_prediction_index": 1,
-    "clip_predicted_caption": "Meditation progression",
+    "clip_prediction_index": 2,
+    "clip_predicted_caption": "Learning math from memes",
     "clip_correct": false,
     "clip_probs": [
-      0.038726806640625,
-      0.45751953125,
-      0.2264404296875,
-      0.27734375
+      0.0146942138671875,
+      0.1461181640625,
+      0.68603515625,
+      0.153076171875
     ],
     "blip_caption": "the brain is the most important organ in the body",
-    "blip_caption_with_prompt": "2.Copying code is the same as writing code",
+    "blip_caption_with_prompt": "the brain is a funny thing",
+    "blip_reason": "the brain is funny because it is funny because it is funny because it is funny because it is funny because it is funny because it is funny because it is funny because it is funny because it is funny because it is funny because it is funny because it is funny because it is funny because it is funny because it is funny because it is funny because it is funny because it is funny because it is funny because it is funny because it is funny because it is funny because it is funny because it is funny",
     "correct_caption": "Idea: Copying code > Understanding code > Writing code > Deleting everything"
   },
   {
     "meme_id": "meme_06",
-    "clip_prediction_index": 1,
-    "clip_predicted_caption": "Pikachu watching fireworks",
+    "clip_prediction_index": 2,
+    "clip_predicted_caption": "Cute Pokemon reaction",
     "clip_correct": false,
     "clip_probs": [
-      0.210205078125,
-      0.496337890625,
-      0.26171875,
-      0.03173828125
+      0.14453125,
+      0.223876953125,
+      0.6083984375,
+      0.023223876953125
     ],
     "blip_caption": "a cartoon character is standing next to a pikachu",
-    "blip_caption_with_prompt": "pokemon, pokemon memes, pokemon memes, pokemon memes, pokemon",
+    "blip_caption_with_prompt": "pokemon pikachu and person",
+    "blip_reason": "pokemon pikachu, person, person, person, person, person, person, person, person, person, person, person, person, person, person, person, person, person, person, person, person, person, person, person, person, person, person, person, person, person, person, person, person, person, person, person, person, person, person, person, person, person, person, person, person, person, person, person,",
     "correct_caption": "Didn't study \u2192 failed exam \u2192 surprised"
   },
   {
     "meme_id": "meme_07",
-    "clip_prediction_index": 1,
-    "clip_predicted_caption": "Guy admiring a butterfly",
+    "clip_prediction_index": 2,
+    "clip_predicted_caption": "Bug identification meme",
     "clip_correct": false,
     "clip_probs": [
-      0.0032501220703125,
-      0.9013671875,
-      0.093505859375,
-      0.0017957687377929688
+      0.01477813720703125,
+      0.33642578125,
+      0.6484375,
+      0.0005555152893066406
     ],
     "blip_caption": "a cartoon character with glasses and a butterfly",
-    "blip_caption_with_prompt": "2.",
+    "blip_caption_with_prompt": "a man is holding a butterfly",
+    "blip_reason": "the man is holding a butterfly and the man is holding a butterfly",
     "correct_caption": "Calling every bird a pigeon"
   },
   {
@@ -125,13 +133,14 @@
     "clip_predicted_caption": "Getting insulted \u2192 UNO reverse \u2192 You!",
     "clip_correct": true,
     "clip_probs": [
-      0.62451171875,
-      0.1817626953125,
-      0.1934814453125,
-      7.474422454833984e-05
+      0.6806640625,
+      0.1361083984375,
+      0.1832275390625,
+      1.8477439880371094e-05
     ],
     "blip_caption": "a hand is holding a card with a green and yellow symbol",
-    "blip_caption_with_prompt": "2.",
+    "blip_caption_with_prompt": "a hand is holding a card with a green and yellow arrow",
+    "blip_reason": "the hand is holding a card with a green and yellow arrow",
     "correct_caption": "Getting insulted \u2192 UNO reverse \u2192 You!"
   },
   {
@@ -140,58 +149,62 @@
     "clip_predicted_caption": "Tabs are better than spaces. Change my mind.",
     "clip_correct": true,
     "clip_probs": [
-      0.9794921875,
-      0.0108795166015625,
-      0.006496429443359375,
-      0.0033702850341796875
+      0.9912109375,
+      0.0012750625610351562,
+      0.0027408599853515625,
+      0.00473785400390625
     ],
     "blip_caption": "a man sitting at a table with a sign that says change my mind",
-    "blip_caption_with_prompt": "2.",
+    "blip_caption_with_prompt": "change my mind",
+    "blip_reason": "you can change your mind",
     "correct_caption": "Tabs are better than spaces. Change my mind."
   },
   {
     "meme_id": "meme_10",
-    "clip_prediction_index": 1,
-    "clip_predicted_caption": "Two random switches",
-    "clip_correct": false,
+    "clip_prediction_index": 0,
+    "clip_predicted_caption": "Debug or Rewrite?",
+    "clip_correct": true,
     "clip_probs": [
-      0.0367431640625,
-      0.6826171875,
-      0.2286376953125,
-      0.05181884765625
+      0.54638671875,
+      0.174560546875,
+      0.032806396484375,
+      0.2462158203125
     ],
     "blip_caption": "a comic strip with a man with a red button on his face",
-    "blip_caption_with_prompt": "the caption of this meme is debug or rewrite?",
+    "blip_caption_with_prompt": "i'm a superhero",
+    "blip_reason": "the comic is about a superhero who is a superhero",
     "correct_caption": "Debug or Rewrite?"
   },
   {
     "meme_id": "meme_11",
-    "clip_prediction_index": 2,
-    "clip_predicted_caption": "Fashion critique",
+    "clip_prediction_index": 3,
+    "clip_predicted_caption": "Reacting to jokes",
     "clip_correct": false,
     "clip_probs": [
-      0.1328125,
-      0.1705322265625,
-      0.378173828125,
-      0.318603515625
+      0.0684814453125,
+      0.0653076171875,
+      0.2464599609375,
+      0.61962890625
     ],
     "blip_caption": "a man is wearing an orange jacket and a hat",
-    "blip_caption_with_prompt": "2.",
+    "blip_caption_with_prompt": "drake ft drake ft drake ft drake ft drake ft drake ft drake ft drake ft drake ft drake ft drake ft drake ft drake ft drake ft drake ft drake ft drake ",
+    "blip_reason": "drake ft drake ft drake ft drake ft drake ft drake ft drake ft drake ft drake ft drake ft drake ft drake ft drake ft drake ft drake ft drake ft drake ",
     "correct_caption": "Using global variables \u2014 No. Using local scope \u2014 Yes."
   },
   {
     "meme_id": "meme_12",
-    "clip_prediction_index": 1,
-    "clip_predicted_caption": "Evil genius blueprint",
+    "clip_prediction_index": 3,
+    "clip_predicted_caption": "Planning a wedding",
     "clip_correct": false,
     "clip_probs": [
-      0.126220703125,
-      0.34326171875,
-      0.2322998046875,
-      0.29833984375
+      0.2049560546875,
+      0.332763671875,
+      0.0968017578125,
+      0.365478515625
     ],
     "blip_caption": "the minions - the movie",
-    "blip_caption_with_prompt": "2.",
+    "blip_caption_with_prompt": "i'm a sailor man",
+    "blip_reason": "the sailor man meme is funny because it is a sailor man meme",
     "correct_caption": "Plan: Start early. Reality: Panic last minute."
   },
   {
@@ -200,13 +213,14 @@
     "clip_predicted_caption": "Trying to calculate your crush\u2019s mixed signals",
     "clip_correct": true,
     "clip_probs": [
-      0.8828125,
-      0.09906005859375,
-      0.01383209228515625,
-      0.004283905029296875
+      0.82666015625,
+      0.1705322265625,
+      0.0023956298828125,
+      0.000644683837890625
     ],
     "blip_caption": "a woman's face with different expressions and mathematical formulas",
-    "blip_caption_with_prompt": "2.",
+    "blip_caption_with_prompt": "- a woman's face with different expressions",
+    "blip_reason": "the woman's face is a sex symbol",
     "correct_caption": "Trying to calculate your crush\u2019s mixed signals"
   },
   {
@@ -215,13 +229,14 @@
     "clip_predicted_caption": "Stock market overview",
     "clip_correct": false,
     "clip_probs": [
-      0.1470947265625,
-      0.0134735107421875,
-      0.005706787109375,
-      0.83349609375
+      0.15576171875,
+      0.030670166015625,
+      0.0227813720703125,
+      0.791015625
     ],
     "blip_caption": "a man in a suit standing in front of a stock market",
-    "blip_caption_with_prompt": "2.",
+    "blip_caption_with_prompt": "stock market - stookes",
+    "blip_reason": "the stock market is a funny thing",
     "correct_caption": "Accidentally made code run faster \u2014 stonks!"
   },
   {
@@ -230,28 +245,30 @@
     "clip_predicted_caption": "Social media challenge",
     "clip_correct": false,
     "clip_probs": [
-      0.035308837890625,
-      0.2529296875,
-      0.1849365234375,
-      0.52685546875
+      0.07598876953125,
+      0.300537109375,
+      0.20654296875,
+      0.417236328125
     ],
     "blip_caption": "a man in a suit and tie is holding a trade offer",
-    "blip_caption_with_prompt": "2.",
+    "blip_caption_with_prompt": "trade offer i receive you receive",
+    "blip_reason": "it is a joke about the trade offer scam",
     "correct_caption": "I receive: sleep. You receive: assignment done."
   },
   {
     "meme_id": "meme_16",
-    "clip_prediction_index": 1,
-    "clip_predicted_caption": "Star Wars love story",
-    "clip_correct": false,
+    "clip_prediction_index": 0,
+    "clip_predicted_caption": "You finished the project, right? ...Right?",
+    "clip_correct": true,
     "clip_probs": [
-      0.1121826171875,
-      0.65576171875,
-      0.061004638671875,
-      0.1710205078125
+      0.5400390625,
+      0.2049560546875,
+      0.10968017578125,
+      0.1453857421875
     ],
     "blip_caption": "a group of people with different faces and different captions",
-    "blip_caption_with_prompt": "the caption of this meme is you finished the project, right? ...Right?",
+    "blip_caption_with_prompt": "i'm going to be a nerd",
+    "blip_reason": "nerd memes, nerd memes, nerd memes, nerd memes, nerd memes, nerd memes, nerd memes, nerd memes, nerd memes, nerd memes, nerd memes, nerd memes, nerd memes, nerd memes, nerd memes, nerd memes, nerd meme",
     "correct_caption": "You finished the project, right? ...Right?"
   },
   {
@@ -260,13 +277,14 @@
     "clip_predicted_caption": "DC Comics humor",
     "clip_correct": false,
     "clip_probs": [
-      0.00373077392578125,
-      0.94189453125,
-      0.006549835205078125,
-      0.047637939453125
+      0.01302337646484375,
+      0.9716796875,
+      0.0003311634063720703,
+      0.014984130859375
     ],
     "blip_caption": "happy birthday i'm not another milestone counting you",
-    "blip_caption_with_prompt": "2.It is funny because it is a batman meme",
+    "blip_caption_with_prompt": "happy birthday i'm not another milestone counting you",
+    "blip_reason": "it is a joke about batman and a batman meme",
     "correct_caption": "\u2018I\u2019ll finish tomorrow\u2019 \u2014 SLAP \u2014 \u2018You\u2019ll do it now!\u2019"
   },
   {
@@ -275,13 +293,14 @@
     "clip_predicted_caption": "When someone asks if you\u2019ve started the project",
     "clip_correct": true,
     "clip_probs": [
-      0.771484375,
-      0.0225830078125,
-      0.04931640625,
-      0.15673828125
+      0.9443359375,
+      0.0113372802734375,
+      0.01367950439453125,
+      0.03082275390625
     ],
     "blip_caption": "two pictures of a cartoon character with the caption when someone asks what's that",
-    "blip_caption_with_prompt": "2.What's that smell?''",
+    "blip_caption_with_prompt": "when someone asks what's that smell?''",
+    "blip_reason": "the cartoon is about a pig's smell",
     "correct_caption": "When someone asks if you\u2019ve started the project"
   },
   {
@@ -290,13 +309,14 @@
     "clip_predicted_caption": "Strategy meeting",
     "clip_correct": false,
     "clip_probs": [
-      0.0035686492919921875,
-      0.0159912109375,
-      0.97412109375,
-      0.00646209716796875
+      0.01282501220703125,
+      0.02801513671875,
+      0.95703125,
+      0.002227783203125
     ],
     "blip_caption": "emergency meeting banner",
-    "blip_caption_with_prompt": "2.",
+    "blip_caption_with_prompt": "emergency meeting",
+    "blip_reason": "it is a funny meme because it is a funny meme because it is a funny meme because it is a funny meme because it is a funny meme because it is a funny meme because it is a funny meme because it is a funny meme because it is a funny meme because it is a funny meme because it is a funny meme because it is a funny meme because it is a funny meme because it is a funny meme because it is",
     "correct_caption": "When someone says Python is better than C++"
   },
   {
@@ -305,13 +325,14 @@
     "clip_predicted_caption": "Driving safely",
     "clip_correct": false,
     "clip_probs": [
-      0.0063934326171875,
-      0.4921875,
-      0.1524658203125,
-      0.348876953125
+      0.0009851455688476562,
+      0.50244140625,
+      0.391357421875,
+      0.10528564453125
     ],
     "blip_caption": "a blue car driving down a highway with a sign",
-    "blip_caption_with_prompt": "2.",
+    "blip_caption_with_prompt": "a chevy s10 slams a chevy s10 slams a chevy s10 slams a chevy s10 slams a chevy s10 slams a chevy s10 slams a chevy s10 slams a chevy s10 ",
+    "blip_reason": "a chevy s10 slams a chevy s10 slams a chevy s10 slams a chevy s10 slams a chevy s10 slams a chevy s10 slams a chevy s10 slams a chevy s10 ",
     "correct_caption": "Sleep \u2190 \u2190 \u2190 Finish Project"
   },
   {
@@ -320,13 +341,14 @@
     "clip_predicted_caption": "Meditation levels",
     "clip_correct": false,
     "clip_probs": [
-      0.004058837890625,
-      0.354248046875,
-      0.46923828125,
-      0.172607421875
+      7.444620132446289e-05,
+      0.0645751953125,
+      0.61279296875,
+      0.32275390625
     ],
     "blip_caption": "the brain of a person with different brains",
-    "blip_caption_with_prompt": "memes, funny memes, funny memes, funny memes, funny memes, funny memes, funny memes, funny memes, funny memes, funny memes, funny memes, funny memes, funny memes, funny memes, funny memes, funny memes, funny memes, funny memes, funny memes, funny memes, funny memes, funny memes, funny memes, funny memes, funny memes, funny",
+    "blip_caption_with_prompt": "eating meat being vegetarian being vegan animals eat you",
+    "blip_reason": "the brain is a funny thing, funny memes, funny memes, funny memes, funny memes, funny memes, funny memes, funny memes, funny memes, funny memes, funny memes, funny memes, funny memes, funny memes, funny memes, funny memes, funny memes, funny memes, funny memes, funny memes, funny memes, funny memes, funny memes, funny memes,",
     "correct_caption": "Using print statements \u2192 Using a debugger \u2192 Telepathically reading stack trace"
   },
   {
@@ -335,13 +357,14 @@
     "clip_predicted_caption": "Infinity Gauntlet analysis",
     "clip_correct": false,
     "clip_probs": [
-      0.01247406005859375,
-      0.164306640625,
-      0.82177734375,
-      0.0014667510986328125
+      0.03192138671875,
+      0.0634765625,
+      0.904296875,
+      0.00047707557678222656
     ],
     "blip_caption": "a comic book with a man and a woman with a hat",
-    "blip_caption_with_prompt": "2.when finally have the entire master chef collection on pc, i never called me a man",
+    "blip_caption_with_prompt": "when finally have the entire master chief collection on pc, i'll never call me a man",
+    "blip_reason": "avengers, avengers infinity war, avengers, avengers infinity war, avengers, avengers infinity war, avengers infinity war, avengers infinity war, avengers infinity war, avengers infinity war, avengers infinity war, avengers infinity war, ",
     "correct_caption": "Deleted 1000 lines of code with a snap"
   },
   {
@@ -350,13 +373,14 @@
     "clip_predicted_caption": "At a wedding party",
     "clip_correct": false,
     "clip_probs": [
-      0.2296142578125,
-      0.6142578125,
-      0.1268310546875,
-      0.0291900634765625
+      0.224365234375,
+      0.61962890625,
+      0.1494140625,
+      0.006671905517578125
     ],
     "blip_caption": "a cartoon of a class with a teacher and students",
-    "blip_caption_with_prompt": "2.It is funny because it is a meme about a classmate who is the only one who knows the test is double double side",
+    "blip_caption_with_prompt": "the rest of the class",
+    "blip_reason": "the rest of the class is the only person who knows the test is double-sided",
     "correct_caption": "They don\u2019t know I finished my project at 4 AM"
   },
   {
@@ -365,28 +389,30 @@
     "clip_predicted_caption": "Winter fashion goals",
     "clip_correct": false,
     "clip_probs": [
-      0.1934814453125,
-      0.78955078125,
-      0.00876617431640625,
-      0.00836944580078125
+      0.140625,
+      0.82177734375,
+      0.036102294921875,
+      0.0013151168823242188
     ],
     "blip_caption": "sanders is seen sitting on a chair with a man in a mask",
-    "blip_caption_with_prompt": "2.",
+    "blip_caption_with_prompt": "sanders sat on the steps of the white house during the inauguration",
+    "blip_reason": "sanders is a sanders",
     "correct_caption": "Waiting for code to compile"
   },
   {
     "meme_id": "meme_25",
-    "clip_prediction_index": 1,
-    "clip_predicted_caption": "Morning meeting",
+    "clip_prediction_index": 2,
+    "clip_predicted_caption": "Every teacher during a drill, STAY CALM!!!",
     "clip_correct": false,
     "clip_probs": [
-      0.21142578125,
-      0.440673828125,
-      0.172607421875,
-      0.17529296875
+      0.1671142578125,
+      0.0595703125,
+      0.63037109375,
+      0.1429443359375
     ],
     "blip_caption": "the office - scott scott scott scott scott ",
-    "blip_caption_with_prompt": "2.",
+    "blip_caption_with_prompt": "the office - sam & bob",
+    "blip_reason": "sam and bob are two of the most famous characters in the office",
     "correct_caption": "Every teacher during a drill, STAY CALM!!!"
   },
   {
@@ -395,13 +421,14 @@
     "clip_predicted_caption": "Award show tears",
     "clip_correct": false,
     "clip_probs": [
-      0.1424560546875,
-      0.01151275634765625,
-      0.73486328125,
-      0.1109619140625
+      0.26025390625,
+      0.005153656005859375,
+      0.66455078125,
+      0.070068359375
     ],
     "blip_caption": "a man in a suit and tie is sitting on a red carpet",
-    "blip_caption_with_prompt": "2.",
+    "blip_caption_with_prompt": "person, a former nba player, is seen in a grey suit and tie",
+    "blip_reason": "person is a former nba player who is seen in a grey suit and tie",
     "correct_caption": "When the code doesn\u2019t run on the final demo"
   },
   {
@@ -410,13 +437,14 @@
     "clip_predicted_caption": "SpongeBob trivia",
     "clip_correct": false,
     "clip_probs": [
-      0.006565093994140625,
-      0.1278076171875,
-      0.5908203125,
-      0.27490234375
+      0.005573272705078125,
+      0.0283050537109375,
+      0.88037109375,
+      0.0858154296875
     ],
     "blip_caption": "a cartoon of a spongebob character with a message saying he's coming to",
-    "blip_caption_with_prompt": "2.",
+    "blip_caption_with_prompt": "i'm arriving at 10 pm but i'll be there at 8",
+    "blip_reason": "the meme is funny because it is a funny meme",
     "correct_caption": "Let me check if I have motivation\u2026 nope."
   },
   {
@@ -425,13 +453,14 @@
     "clip_predicted_caption": "Waiting for groupmates to contribute",
     "clip_correct": true,
     "clip_probs": [
-      0.96533203125,
-      0.0261383056640625,
-      0.00611114501953125,
-      0.0022125244140625
+      1.0,
+      6.109476089477539e-05,
+      4.3332576751708984e-05,
+      2.3186206817626953e-05
     ],
     "blip_caption": "a skeleton sitting on a wooden bench",
-    "blip_caption_with_prompt": "2.",
+    "blip_caption_with_prompt": "skeleton sitting on a bench",
+    "blip_reason": "skeletons are funny, skeletons are funny, skeletons, skeletons, skeletons, skeletons, skeletons, skeletons, skeletons, skeletons, skeletons, skeletons, skeletons, skeletons, skeletons, skeletons, skeletons, skeletons, skeletons, ",
     "correct_caption": "Waiting for groupmates to contribute"
   },
   {
@@ -440,13 +469,14 @@
     "clip_predicted_caption": "Bird noise",
     "clip_correct": false,
     "clip_probs": [
-      0.030975341796875,
-      0.6728515625,
-      0.1597900390625,
-      0.1365966796875
+      0.469970703125,
+      0.50048828125,
+      0.0015430450439453125,
+      0.028228759765625
     ],
     "blip_caption": "a seagull is sitting on a roof",
-    "blip_caption_with_prompt": "2.The caption of this meme is Friend makes a bad joke \u2014 Me: HAHAHA. Explain why this meme is funny",
+    "blip_caption_with_prompt": "| hhahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahaha",
+    "blip_reason": "hahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahaha",
     "correct_caption": "Friend makes a bad joke \u2014 Me: HAHAHA"
   }
 ]

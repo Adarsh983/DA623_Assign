@@ -33,8 +33,7 @@ for meme in meme_data:
     raw_image = Image.open(image_path).convert("RGB")
     image_input_clip = clip_preprocess(raw_image).unsqueeze(0).to(device)
 
-    prefixed_captions = [f"Meme Caption: {c}" for c in meme["captions"]]
-    text_inputs = clip.tokenize(prefixed_captions).to(device)
+    text_inputs = clip.tokenize(meme["captions"]).to(device)
     with torch.no_grad():
         image_features = clip_model.encode_image(image_input_clip)
         text_features = clip_model.encode_text(text_inputs)
@@ -49,12 +48,17 @@ for meme in meme_data:
         out = blip_model.generate(**blip_inputs)
     blip_caption = blip_processor.decode(out[0], skip_special_tokens=True)
 
-    prompt = f"""1. What do you think the caption of this meme should be?
-                 2.The caption of this meme is {meme['correct_caption']}. Explain why this meme is funny."""
+    prompt = f"""Caption this meme"""
     blip_inputs_prompt = blip_processor(raw_image, prompt, return_tensors="pt").to(device)
     with torch.no_grad():
         out_prompt = blip_model.generate(**blip_inputs_prompt, max_new_tokens=100)
     blip_caption_with_prompt = blip_processor.tokenizer.decode(out_prompt[0], skip_special_tokens=True)
+    
+    reason = f"""Caption of the meme is: {blip_caption_with_prompt}. Explain why it is funny."""
+    blip_inputs_reason = blip_processor(raw_image, reason, return_tensors="pt").to(device)
+    with torch.no_grad():
+        out_prompt = blip_model.generate(**blip_inputs_reason, max_new_tokens=100)
+    blip_reason = blip_processor.tokenizer.decode(out_prompt[0], skip_special_tokens=True)
 
     results.append({
         "meme_id": meme["id"],
@@ -64,6 +68,7 @@ for meme in meme_data:
         "clip_probs": [float(p) for p in probs],
         "blip_caption": blip_caption,
         "blip_caption_with_prompt": blip_caption_with_prompt,
+        "blip_reason": blip_reason,
         "correct_caption": meme["correct_caption"]
     })
 
@@ -75,6 +80,7 @@ for r in results[:5]:
     print(f"CLIP Prediction: {r['clip_predicted_caption']}")
     print(f"BLIP Caption (Image Only): {r['blip_caption']}")
     print(f"BLIP Caption (With Prompt): {r['blip_caption_with_prompt']}")
+    print(f"BLIP Reasoning: {r['blip_reason']}")
     print(f"Correct Caption: {r['correct_caption']}")
     print("--" * 30)
 
