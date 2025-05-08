@@ -1,4 +1,10 @@
-# Meme Understanding with CLIP and BLIP-2
+# DA623 Assignment 
+Name: Adarsh Mani
+
+Roll No.: 210103021
+
+---
+## Meme Understanding with CLIP and BLIP-2
 
 This project uses state-of-the-art vision-language models—**CLIP** and **BLIP-2**—to understand memes. The goal is to:
 
@@ -38,9 +44,9 @@ cd meme-understanding-clip-blip2
 ### Step 2: Create a Virtual Environment
 
 ```bash
-python -m venv venv
-source venv/bin/activate      # On Linux/macOS
-venv\Scripts\activate.bat   # On Windows
+python -m venv .venv
+source .venv/bin/activate      # On Linux/macOS
+.venv\Scripts\activate.bat   # On Windows
 ```
 
 ### Step 3: Install Requirements
@@ -137,4 +143,4 @@ BLIP Reasoning: "The image and caption together depict the struggle of facing a 
 
 ## Contact
 
-For questions or collaborations, reach out to `g.mani@iitg.ac.in`.
+For questions, reach out to `g.mani@iitg.ac.in`.
